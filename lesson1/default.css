@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+.post-panel {
+    /*margin: 0 auto;*/
+    border: solid 10px cadetblue;
+    padding: 8px;
+    width: 500px;
+    max-height: 160px;
+    min-height: 160px;
+    overflow: hidden;
+}
+.post-header, .post-content {
+    margin-left: 58px;
+    width: 100%;
+}
+.post-header {
+    font-size: 20px;
+    height:58px;
+}
+.post-panel .username {
+    display: block;
+}
+.post-avatar {
+    float: left;
+}
+.post-avatar {
+    width: 50px;
+    height: 50px;
+    margin-left: -58px;
+}
+.post-content{
+    padding-top: 2px;
+    border-top: solid 1px black;
+}
+
